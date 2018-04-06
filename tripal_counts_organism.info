@@ -1,0 +1,6 @@
+name = Tripal Counts Organism
+core = 7.x
+package = Tripal Extensions
+files[] = tripal_counts_organism.module
+version=7.x-3.0
+dependencies[] = tripal
