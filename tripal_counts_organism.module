@@ -1,0 +1,12 @@
+<?php
+
+function counts_my_organisms(){
+
+  $result = db_select('chado.organism', 'table')
+    ->fields('table')
+    ->execute();
+
+  $count = $result->rowCount();
+
+ // return $count;
+}
